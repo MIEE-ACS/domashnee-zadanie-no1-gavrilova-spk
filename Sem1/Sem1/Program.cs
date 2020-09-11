@@ -28,7 +28,7 @@ namespace Sem1
 
             double AC = Math.Abs(A - C);
             double BC = Math.Abs(B - C);
-            Console.Write("Длины АС = {0:N3};   BC = {1:N3};   AC + BC = {2:N3}", AC, BC, AC + BC);
+            Console.Write("Длины     АС = {0:N3};     BC = {1:N3};     AC + BC = {2:N3}", AC, BC, AC + BC);
             Console.ReadKey();
         }
     }
