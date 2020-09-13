@@ -8,11 +8,23 @@ namespace Sem1._1
 {
     class Program
     {
-        static double Check(ref string str)
+        static double Check(ref string str)  //Проверка на десятичное число, замена точки на запятую
         {
+            for (int p = 0; p < str.Length; p++)
+            {
+                if (str[p] != ',' && str[p] != '.' && str[p] != '-')
+                    if (str[p] < '0' || str[p] > '9')
+                    {
+                        Console.Write("Ошибка: Некорректные данные. Введите число:");
+                        str = Console.ReadLine();
+                        p = -1;
+                        continue;
+                    }
+            }
             int i = str.IndexOf('.');
             str = str.Replace('.', ',');
             return Double.Parse(str);
+
         }
         static void Main(string[] args)
         {

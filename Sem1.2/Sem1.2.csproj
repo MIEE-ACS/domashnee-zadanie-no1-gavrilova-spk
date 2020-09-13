@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C7BE3D0A-789F-4CA2-8209-B19F470582D0}</ProjectGuid>
+    <ProjectGuid>{AAE382D0-8E64-4580-B6BB-4D913A2844A6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Sem1._1</RootNamespace>
-    <AssemblyName>Sem1.1</AssemblyName>
+    <RootNamespace>Sem1._2</RootNamespace>
+    <AssemblyName>Sem1.2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
